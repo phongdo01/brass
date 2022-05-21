@@ -1,5 +1,5 @@
 const cors = require("cors");
-var whitelist = ['*', 'http://shinosuke.cf', 'http://localhost:3000']
+var whitelist = ['*', 'http://shinosuke.cf', 'http://localhost:3001', 'http://127.0.0.1']
 var corsOptionsDelegate = function (req, callback) {
     var corsOptions = { origin: true };
     // if (whitelist.indexOf(req.header('Origin')) !== -1) {

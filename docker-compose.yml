@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   web:
-    container_name: iam-container
-    image: iam-app
+    container_name: brass-container
+    image: brass-app
     build:
       context: ./
       dockerfile: Dockerfile
@@ -10,14 +10,15 @@ services:
       - .:/app
     command: npm run start:dev
     ports:
-      - "3000:3000"
+      - "3001:3001"
     environment:
       NODE_ENV: development
       DEBUG: nodejs-docker-express:*
   db:
+    container_name: brass-db_1
     image: mongo:5.0
     ports:
-      - 27017:27017
+      - 27018:27017
     volumes:
       - ./mongo:/data/db
     environment:
