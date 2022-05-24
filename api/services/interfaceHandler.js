@@ -33,7 +33,7 @@ module.exports = {
   },
   getIconsByCategoryAndFolder: async function({categoryName, folder}) {
     const interfaces = await interface.find({category: categoryName}).lean();
-    if (!interfaces) {
+    if (!interfaces || interfaces.length === 0) {
       return 404;
     }
     const foundInterface = interfaces[0].data.find(item => item.folder === folder);

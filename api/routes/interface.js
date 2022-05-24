@@ -14,12 +14,18 @@ router.get("/", cors, async function (req, res, next) {
 router.get("/categories", cors, async function (req, res, next) {
   const { query } = req;
   const interfaces = await getInterfaces(query);
+  if (!interfaces) {
+    return res.status(404).json({error: 'NOT FOUND'});
+  }
   const categories = interfaces.map(item => item.category);
   res.status(200).json(categories);
 });
 
 router.get("/category/:id", cors, async function (req, res, next) {
   const interfaces = await getInterfaceById(req.params.id);
+  if (!interfaces) {
+    return res.status(404).json({error: 'NOT FOUND'});
+  }
   const previews = interfaces.data.map(item => item.preview);
   res.status(200).json(previews);
 });
