@@ -1,0 +1,176 @@
+[
+                        {
+                            "appIcon": "tiktok.png",
+                            "appScheme": "tiktok://",
+                            "appDefault": "tiktok",
+                            "appName": "TikTok"
+                        },
+                        {
+                            "appIcon": "youtube.png",
+                            "appScheme": "youtube://",
+                            "appDefault": "youtube",
+                            "appName": "YouTube"
+                        },
+                        {
+                            "appIcon": "instagram.png",
+                            "appScheme": "instagram://",
+                            "appDefault": "instagram",
+                            "appName": "Instagram"
+                        },
+                        {
+                            "appIcon": "snapchat.png",
+                            "appScheme": "snapchat://",
+                            "appDefault": "snapchat",
+                            "appName": "Snapchat"
+                        },
+                        {
+                            "appIcon": "messenger.png",
+                            "appScheme": "fb-messenger://",
+                            "appDefault": "messenger",
+                            "appName": "Messenger"
+                        },
+                        {
+                            "appIcon": "facebook.png",
+                            "appScheme": "fb://",
+                            "appDefault": "facebook",
+                            "appName": "Facebook"
+                        },
+                        {
+                            "appIcon": "amazon.png",
+                            "appScheme": "amazonToAlipay://",
+                            "appDefault": "amazon",
+                            "appName": "Amazon"
+                        },
+                        {
+                            "appIcon": "findMy.png",
+                            "appScheme": "fmip1://",
+                            "appDefault": "findmy",
+                            "appName": "Find My"
+                        },
+                        {
+                            "appIcon": "googleMap.png",
+                            "appScheme": "comgooglemaps://",
+                            "appDefault": "applemap",
+                            "appName": "Google Map"
+                        },
+                        {
+                            "appIcon": "whatsapp.png",
+                            "appScheme": "whatsapp://",
+                            "appDefault": "whatsapp",
+                            "appName": "Whatsapp"
+                        },
+                        {
+                            "appIcon": "netflix.png",
+                            "appScheme": "nflx://",
+                            "appDefault": "netflix",
+                            "appName": "Netflix"
+                        },
+                        {
+                            "appIcon": "spotify.png",
+                            "appScheme": "spotify://",
+                            "appDefault": "spotify",
+                            "appName": "Spotify"
+                        },
+                        {
+                            "appIcon": "zoom.png",
+                            "appScheme": "zoomus://",
+                            "appDefault": "zoom",
+                            "appName": "Zoom"
+                        },
+                        {
+                            "appIcon": "google.png",
+                            "appScheme": "google://",
+                            "appDefault": "google",
+                            "appName": "Google"
+                        },
+                        {
+                            "appIcon": "twitter.png",
+                            "appScheme": "twitter://",
+                            "appDefault": "twitter",
+                            "appName": "Twitter"
+                        },
+                        {
+                            "appIcon": "reminder.png",
+                            "appScheme": "x-apple-reminderkit://",
+                            "appDefault": "reminder",
+                            "appName": "Reminder"
+                        },
+                        {
+                            "appIcon": "telegram.png",
+                            "appScheme": "tg://",
+                            "appDefault": "telegram",
+                            "appName": "Telegram"
+                        },
+                        {
+                            "appIcon": "pinterest.png",
+                            "appScheme": "pinterest://",
+                            "appDefault": "pinterest",
+                            "appName": "Pinterest"
+                        },
+                        {
+                            "appIcon": "uber.png",
+                            "appScheme": "uber://",
+                            "appDefault": "uber",
+                            "appName": "Uber"
+                        },
+                        {
+                            "appIcon": "files.png",
+                            "appScheme": "shareddocuments://",
+                            "appDefault": "files",
+                            "appName": "Files"
+                        },
+                        {
+                            "appIcon": "calendar.png",
+                            "appScheme": "calshow://",
+                            "appDefault": "calendar",
+                            "appName": "Calendar"
+                        },
+                        {
+                            "appIcon": "watch.png",
+                            "appScheme": "itms-watchs://",
+                            "appDefault": "watch",
+                            "appName": "Watch"
+                        },
+                        {
+                            "appIcon": "iTunesStore.png",
+                            "appScheme": "itmss://",
+                            "appDefault": "itunesstore",
+                            "appName": "Itunes Store"
+                        },
+                        {
+                            "appIcon": "mail.png",
+                            "appScheme": "message://",
+                            "appName": "Mail",
+                            "appDefault": "mail"
+                        },
+                        {
+                            "appIcon": "gmail.png",
+                            "appScheme": "googlegmail://",
+                            "appName": "Gmail",
+                            "appDefault": "gmail"
+                        },
+                        {
+                            "appIcon": "photos.png",
+                            "appScheme": "photos-redirect://",
+                            "appName": "Photos",
+                            "appDefault": "photos"
+                        },
+                        {
+                            "appIcon": "chrome.png",
+                            "appScheme": "googlechrome://",
+                            "appName": "Chrome",
+                            "appDefault": "chrome"
+                        },
+                        {
+                            "appIcon": "iBook.png",
+                            "appScheme": "itms-bookss://",
+                            "appDefault": "ibooks",
+                            "appName": "iBooks"
+                        },
+                        {
+                            "appIcon": "messages.png",
+                            "appScheme": "sms://",
+                            "appName": "iMessage",
+                            "appDefault": "imessage"
+                        }
+                    ]
