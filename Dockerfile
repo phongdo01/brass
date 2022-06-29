@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY ["package.json", "package-lock.json", "./"]
 
-RUN npm i -g nodemon
-
 RUN npm ci
 
 COPY . .
